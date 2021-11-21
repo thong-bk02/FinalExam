@@ -1,4 +1,11 @@
-.tuan {
-  background-color: red; }
+.border-bottom {
+  margin: 15px 1px;
+  padding-bottom: 4px;
+  border-bottom-style: dotted;
+  border-width: 3px;
+  color: black; }
+
+.height {
+  height: 250px; }
 
 /*# sourceMappingURL=contact.css.map */
