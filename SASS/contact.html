@@ -43,8 +43,24 @@
                               id="floatTextarea" required></textarea>
                     <label for="floatTextarea">Phản hồi của bạn</label>
                 </div>
-                <button type="submit" id="submit-btn" class="rounded-pill btn w-100 btn-primary mb-4">Gửi</button>
+                <button type="submit" id="submit-btn" class="rounded-pill btn w-100 btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#modalSubmit">Gửi</button>
             </form>
+            <div class="modal fade" id="addModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Phản hồi</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cảm ơn phản hồi của bạn về chúng tôi</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
