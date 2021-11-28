@@ -8,7 +8,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   -webkit-transition: .2s linear;
   transition: .2s linear; }
 
@@ -27,45 +26,63 @@ section {
 
 .header-group {
   background: url(../image/bg-header.png) no-repeat;
-  height: 100%;
+  height: 90rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   .header-group .header {
-    position: fixed;
-    height: 100px; }
+    position: fixed; }
     .header-group .header .logo {
-      margin-right: auto;
-      font-size: 2.5rem;
-      color: #10221b;
-      font-weight: bolder; }
+      margin-right: auto; }
     .header-group .header .navbar a {
       font-size: 2rem;
       color: white; }
     .header-group .header .navbar #nav-close {
       font-size: 5rem;
       cursor: pointer;
-      color: #10221b;
       display: none; }
     .header-group .header .navbar a:hover {
-      color: #aaaaaa; }
+      color: #aaa; }
     .header-group .header .icons a, .header-group .header .icons div {
       font-size: 2.5rem;
       margin-left: 2rem;
       cursor: pointer;
       color: white; }
     .header-group .header .icons a:hover, .header-group .header .icons div:hover {
-      color: #aaaaaa; }
+      color: #aaa; }
   .header-group .header.active {
     background: black;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
+  .header-group .title {
+    height: 80vh;
+    padding-top: 10rem; }
+    .header-group .title button:hover {
+      color: white; }
+
+.size-9rem {
+  font-size: 9rem; }
+
+.size-8rem {
+  font-size: 8rem; }
+
+.size-5rem {
+  font-size: 5rem; }
+
+.size-4rem {
+  font-size: 4rem; }
+
+.size-3rem {
+  font-size: 3.5rem; }
+
+.size-2rem {
+  font-size: 3rem; }
 
 .search-form {
   position: fixed;
   top: 0;
   left: 0;
-  height: 50%;
+  height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   display: flex;
@@ -78,19 +95,19 @@ section {
     top: 1.5rem;
     right: 2.5rem;
     cursor: pointer;
-    color: #fff;
+    color: white;
     font-size: 6rem; }
   .search-form #close-search:hover {
-    color: #219150; }
+    color: #aaa; }
   .search-form form {
     width: 70rem;
     margin: 0 2rem;
     padding-bottom: 2rem;
-    border-bottom: 0.2rem solid #fff; }
+    border-bottom: 0.2rem solid white; }
     .search-form form input {
       width: 100%;
       font-size: 2rem;
-      color: #fff;
+      color: white;
       text-transform: none;
       background: none;
       padding-right: 2rem; }
@@ -99,11 +116,98 @@ section {
       cursor: pointer;
       color: #fff; }
     .search-form form label:hover {
-      color: #219150; }
+      color: #aaa; }
 
 .search-form.active {
   -webkit-transform: translateY(0%);
   transform: translateY(0%); }
+
+main .img-circle {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; }
+main .border-circle {
+  height: 25rem;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 25rem; }
+main .group1 .container {
+  margin-top: 5vh;
+  padding-bottom: 10vh; }
+main .group2 {
+  background: url(../image/group2-bg.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15rem 0; }
+  main .group2 button:hover {
+    color: white; }
+  main .group2 .size-8rem {
+    padding-top: 5rem; }
+main .group3 {
+  background: url(../image/group3-bg.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .group3 .container {
+    padding: 10rem 0; }
+  main .group3 .row {
+    padding: 10rem 0; }
+main .group4 {
+  background: url(../image/group4-bg.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15rem 0; }
+  main .group4 button:hover {
+    color: white; }
+  main .group4 .size-8rem {
+    padding-top: 5rem; }
+main .group5 {
+  background: url(../image/group5-bg.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25rem 0; }
+main .group6 {
+  background: url(../image/group6-bg.png) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25rem 0; }
+  main .group6 form {
+    padding: 5rem 0; }
+    main .group6 form .box-shadow {
+      max-width: 75vw;
+      box-shadow: 5px 5px 5px 5px #AAA; }
+      main .group6 form .box-shadow input {
+        font-size: 3rem; }
+      main .group6 form .box-shadow .email {
+        text-indent: 5rem;
+        padding: 1rem 0;
+        width: 50vw; }
+      main .group6 form .box-shadow .group6-btn:hover {
+        color: white !important; }
+
+footer {
+  padding: 10rem 0; }
+  footer .border-icon {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+  footer ul li {
+    font-size: 2rem;
+    line-height: 4rem; }
+    footer ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: normal !important; }
+    footer ul li a:hover {
+      color: #aaa;
+      margin-left: 10px; }
 
 @media (max-width: 1200px) {
   .header {
@@ -115,12 +219,15 @@ section {
   html {
     font-size: 55%;
     scroll-padding-top: 7rem; } }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  html {
+    font-size: 50%; }
+
   .header .navbar {
     position: fixed;
     top: 0;
     left: -110%;
-    background: #fff;
+    background: white;
     width: 35rem;
     height: 100%;
     display: flex;
@@ -139,10 +246,44 @@ section {
   .header .navbar.active {
     left: 0;
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); } }
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); }
+
+  main .group2 {
+    padding: 0; }
+    main .group2 .size-8rem {
+      font-size: 7rem; }
+    main .group2 .group2-btn {
+      text-align: center; }
+  main .group3 .container {
+    padding: 10rem 0 0 0; }
+    main .group3 .container .row {
+      padding: 5rem 0; }
+  main .group4 {
+    padding: 0; }
+    main .group4 .group4-btn {
+      text-align: center; }
+    main .group4 img {
+      margin-bottom: 5rem; }
+  main .group5 {
+    padding: 10rem 0; }
+  main .group6 {
+    padding: 10rem 0; }
+    main .group6 .box-shadow {
+      box-shadow: none !important;
+      background-color: #f4f4f4; }
+      main .group6 .box-shadow .email {
+        padding: 1rem 0;
+        width: 100% !important; }
+      main .group6 .box-shadow .group6-btn {
+        margin: 1.5rem 30% 0 30%;
+        padding: 1rem;
+        border-radius: 5px !important; }
+
+  footer {
+    padding: 5rem 0; } }
 @media (max-width: 450px) {
   html {
-    font-size: 50%; } }
+    font-size: 40%; } }
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -16,7 +15,7 @@
             <div class="logo py-4"><a href="#"><img src="image/logo.png" class="img-fluid"></a></div>
             <nav class="navbar">
                 <div id="nav-close" class="fas fa-times d-md-none d-block"></div>
-                <a href="#home" class="px-lg-5 px-sm-3 px-0 text-decoration-none">home</a>
+                <a href="#home" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Home</a>
                 <a href="#product" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Product</a>
                 <a href="#promo" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Promo</a>
                 <a href="#about" class="px-lg-5 px-sm-3 px-0 text-decoration-none">About</a>
@@ -29,10 +28,16 @@
         </div>
     </header>
     <div class="title">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5"></div>
-                <div class="col-md-7"></div>
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="offset-md-5 col-md-7 d-flex align-items-center">
+                    <div>
+                        <span class="text-warning size-9rem">Title Here</span><br>
+                        <p class="text-light size-3rem my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                        <button type="button" class="btn btn-warning px-5 py-3 size-2rem">ORDER NOW</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -45,8 +50,199 @@
         <label for="search-box" class="fas fa-search"></label>
     </form>
 </div>
-<p>thong</p>
-<p>thong</p>
+
+<main>
+    <div class="group1 d-flex align-items-center">
+        <div class="container">
+            <div class="text-center py-5">
+                <p class="size-5rem">Best Seller</p>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacin-<br>ia odio vitae vestibulum
+                    vestibulum. </h1>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
+                    <div>
+                        <img src="image/group1-image1.png" class="img-fluid img-circle">
+                        <div class="text-center my-4">
+                            <p class="size-2rem">Title Here</p>
+                            <h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
+                    <div>
+                        <img src="image/group1-image2.png" class="img-fluid img-circle">
+                        <div class="text-center my-4">
+                            <p class="size-2rem">Title Here</p>
+                            <h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <div>
+                        <img src="image/group1-image3.png" class="img-fluid img-circle">
+                        <div class="text-center my-4">
+                            <p class="size-2rem">Title Here</p>
+                            <h3>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group2">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 col-12 h-100 d-flex align-items-center justify-content-center"><img
+                        src="image/group2-image1.png" class="img-fluid img-circle w-75"></div>
+                <div class="col-md-6 col-12 h-100 d-flex align-items-center">
+                    <div class="py-5">
+                        <p class="size-8rem text-warning fw-bold">Oriental Taste</p>
+                        <h1 class="text-light py-md-5 py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Vivamus lacinia odio vitae ves- tibulum vestibulum. </h1>
+                        <div class="group2-btn mt-4">
+                            <button type="button" class="btn btn-warning px-5 py-3 size-2rem">ORDER NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group3">
+        <div class="container">
+            <div class="text-center">
+                <p class="size-8rem text-warning fw-bold">Statistics</p>
+                <h1 class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus<br>lacinia odio
+                    vitae vestibulum vestibulum. </h1>
+            </div>
+            <div class="row w-100">
+                <div class="col-lg-3 col-sm-6 col-12 py-4 d-flex align-items-center justify-content-center">
+                    <div class="border border-2 border-white border-circle text-light d-flex align-items-center justify-content-center">
+                            <span class="text-center">
+                                <p class="text-warning size-3rem fw-bold">123</p>
+                                <span class="size-3rem text-light">OUTLETS</span>
+                            </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 py-4 d-flex align-items-center justify-content-center">
+                    <div class="border border-2 border-white border-circle text-light d-flex align-items-center justify-content-center">
+                            <span class="text-center">
+                                <p class="text-warning size-3rem fw-bold">100</p>
+                                <span class="size-3rem text-light">CHEF</span>
+                            </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 py-4 d-flex align-items-center justify-content-center">
+                    <div class="border border-2 border-white border-circle text-light d-flex align-items-center justify-content-center">
+                            <span class="text-center">
+                                <p class="text-warning size-3rem fw-bold">300</p>
+                                <span class="size-3rem text-light">MENU</span>
+                            </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 py-4 d-flex align-items-center justify-content-center">
+                    <div class="border border-2 border-white border-circle text-light d-flex align-items-center justify-content-center">
+                            <span class="text-center">
+                                <p class="text-warning size-3rem fw-bold">30</p>
+                                <span class="size-3rem text-light">COUNTRY</span>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group4">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 col-12 h-100 d-flex align-items-center">
+                    <div class="py-5">
+                        <p class="size-8rem text-warning fw-bold">Chicken Grill</p>
+                        <h1 class="text-light py-md-5 py-3">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit.
+                            Vivamus lacinia odio vitae vestibulum vestibulum. </h1>
+                        <div class="group4-btn my-5"><button type="button" class="btn btn-warning px-5 py-3 size-2rem">ORDER NOW</button></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 h-100 d-flex align-items-center justify-content-center"><img
+                        src="image/group4-image1.png" class="img-fluid img-circle w-75"></div>
+            </div>
+        </div>
+    </div>
+    <div class="group5">
+        <div class="container">
+            <div class="text-center">
+                <p class="size-5rem">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Vivamus lacinia odio
+                    vitae<br> vestibulum vestibulum. </p>
+                <p class="size-8rem mt-md-5 mt-0">Lenora Fields</p>
+            </div>
+        </div>
+    </div>
+    <div class="group6">
+        <div class="container">
+            <div class="text-center">
+                <p class="size-8rem">Subscribe</p>
+                <p class="size-3rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Vivamus lacinia odio
+                    vitae vestibulum vestibulum. </p>
+            </div>
+            <form action="" class="d-flex align-items-center justify-content-center">
+                <div class="box-shadow rounded">
+                    <input type="email" name="" placeholder="Your Email" id="" class="email rounded-start">
+                    <input type="submit" value="Subscribe" class="group6-btn bg-warning text-dark rounded-end py-md-4 px-md-5">
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 py-4 right-footer">
+                <p class="size-4rem">Title Here</p>
+                <h1 class="py-3">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Aliquam at dignissim nunc, id maximus ex.
+                    Etiam nec dignissim elit, at dignissim enim. </h1>
+                <div class="row py-3">
+                    <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp size-2rem text-dark"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 row my-3">
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">ABOUT</li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Brand Guidelines</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">SERVICES</a></li>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">OTHER</li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 <script src="js/script.js"></script>
 <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
