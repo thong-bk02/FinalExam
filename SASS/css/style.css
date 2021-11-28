@@ -25,7 +25,7 @@ section {
   padding: 5rem 9%; }
 
 .header-group {
-  background: url(../image/bg-header.png) no-repeat;
+  background: url(../image/home-image/bg-header.png) no-repeat;
   height: 90rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ main .group1 .container {
   margin-top: 5vh;
   padding-bottom: 10vh; }
 main .group2 {
-  background: url(../image/group2-bg.png) no-repeat;
+  background: url(../image/home-image/group2-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +146,7 @@ main .group2 {
   main .group2 .size-8rem {
     padding-top: 5rem; }
 main .group3 {
-  background: url(../image/group3-bg.png) no-repeat;
+  background: url(../image/home-image/group3-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -155,7 +155,7 @@ main .group3 {
   main .group3 .row {
     padding: 10rem 0; }
 main .group4 {
-  background: url(../image/group4-bg.png) no-repeat;
+  background: url(../image/home-image/group4-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,13 +165,13 @@ main .group4 {
   main .group4 .size-8rem {
     padding-top: 5rem; }
 main .group5 {
-  background: url(../image/group5-bg.png) no-repeat;
+  background: url(../image/home-image/group5-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25rem 0; }
 main .group6 {
-  background: url(../image/group6-bg.png) no-repeat;
+  background: url(../image/home-image/group6-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
