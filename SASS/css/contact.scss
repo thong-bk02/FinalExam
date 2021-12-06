@@ -22,22 +22,33 @@ html {
   scroll-padding-top: 5rem;
 }
 .bg{
-  background: url(../image/contact.png) no-repeat;
+  background: url(../image/pr.png) no-repeat;
   background-repeat: no-repeat;
   height: 100vh;
   background-position: bottom;
   background-size: cover;
   h2{
-    padding-left: 600px;
+    padding-right: 600px;
   }
 }
 .type-text{
   font-family: 'Grand Hotel', cursive;
 }
-.size{
+
+input{
+  height: 6rem;
+}
+
+.size-7rem{
   font-size: 7rem;
 }
+.size{
+  font-size: 3rem;
+}
 .size-text{
+  font-size: 2.2rem;
+}
+.size-text-form{
   font-size: 1.5rem;
 }
 .height{
