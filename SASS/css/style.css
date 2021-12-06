@@ -21,9 +21,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; }
 
-section {
-  padding: 5rem 9%; }
-
 .header-group {
   background: url(../image/home-image/bg-header.png) no-repeat;
   height: 90rem;
@@ -57,6 +54,11 @@ section {
   .header-group .title {
     height: 80vh;
     padding-top: 10rem; }
+    .header-group .title button {
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem; }
     .header-group .title button:hover {
       color: white; }
 
@@ -214,10 +216,7 @@ footer {
 
 @media (max-width: 1200px) {
   .header {
-    padding: 2rem; }
-
-  section {
-    padding: 3rem 2rem; } }
+    padding: 2rem; } }
 @media (max-width: 991px) {
   html {
     font-size: 55%;

@@ -28,10 +28,6 @@ html {
   scroll-padding-top: 5rem;
 }
 
-section {
-  padding: 5rem 9%;
-}
-
 .header-group {
   background: url(../image/home-image/bg-header.png) no-repeat;
   height: 90rem;
@@ -82,7 +78,12 @@ section {
   .title {
     height: 80vh;
     padding-top: 10rem;
-
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
     button:hover {
       color: white;
     }
@@ -315,9 +316,6 @@ footer {
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
-  }
-  section {
-    padding: 3rem 2rem;
   }
 }
 
