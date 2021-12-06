@@ -35,6 +35,9 @@ html {
 input {
   height: 6rem; }
 
+.container iframe {
+  height: 35rem; }
+
 .size-7rem {
   font-size: 7rem; }
 
@@ -48,7 +51,7 @@ input {
   font-size: 1.5rem; }
 
 .height {
-  height: 350px; }
+  height: 210px; }
 
 .header-group .header {
   position: fixed; }
