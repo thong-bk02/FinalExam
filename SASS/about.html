@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Draggable - Default functionality</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="header-group">
+    <header class="header w-100">
+        <div class="container d-flex align-items-center">
+            <div class="logo py-4"><a href="index.html"><img src="image/about-image/logo.png" class="img-fluid"></a></div>
+            <nav class="navbar">
+                <div id="nav-close" class="fas fa-times d-md-none d-block"></div>
+                <a href="index.html" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Home</a>
+                <a href="product.html" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Product</a>
+                <a href="promo.html" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Promo</a>
+                <a href="about.html" class="px-lg-5 px-sm-3 px-0 text-decoration-none">About</a>
+                <a href="contact.html" class="px-lg-5 px-sm-3 px-0 text-decoration-none">Contact</a>
+            </nav>
+            <div class="icons ps-xl-5 ps-0">
+                <div id="menu-btn" class="fas fa-bars d-md-none d-inline-block"></div>
+                <div id="search-btn" class="fas fa-search ps-xl-4 ps-0"></div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="search-form">
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="" method="post" class="d-flex align-items-center">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+
+<div class="container-fluid">
+    <div class="group1 img-fluid">
+        <div class="row">
+            <div class="left col-lg-6 col-md-6 col-xl-6 col-12">
+                <div class="text-light size text-center">
+                    <p class="type-text size-text">Best food</p>
+                    <h3 class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse consectetur justo eu nunc consequat, et
+                        blandit dolor mollis.
+                    </h3>
+                    <h4>8:00AM-17:00PM</h4>
+                </div>
+            </div>
+            <div class="left2 col-lg-6 col-md-6 col-xl-6 co-12"></div>
+        </div>
+    </div>
+    <div class="group2 img-fluid">
+        <div class="row">
+            <div class="bg1 col-lg-6 col-md-6 col-xl-6 col-12">
+                <div></div>
+            </div>
+            <div class="left3 col-lg-6 col-md-6 col-xl-6 col-12">
+                <div class="size2 text-light">
+                    <p class="type-text size-text lh-1">Discount 50% New Menu</p>
+                    <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse consectetur justo eu nunc consequat, et
+                        blandit dolor mollis.
+                    </h3>
+                    <h4>3/12/2021-10/12/2021</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="group3 img-fluid">
+        <div class="row">
+            <div class="right2 col-lg-6 col-md-6 col-xl-6 col-12">
+                <div class="size3 text-light text-center">
+                    <p class="size-text type-text">Review</p>
+                    <h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse consectetur justo eu nunc consequat, et
+                        blandit dolor mollis.
+                    </h3>
+                </div>
+            </div>
+            <div class="right col-lg-6 col-md-6 col-xl-6 col-12"></div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 mx-2">
+                <p class="title-footer fw-bold mt-3">Title Here</p>
+                <p class="content-title py-3">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Aliquam at dignissim nunc, id maximus ex.
+                    Etiam nec dignissim elit, at dignissim enim. </p>
+                <div class="row">
+                    <div class="col-3 m-2 border-icon d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter size-2rem text-dark"></i></a></div>
+                    <div class="col-3 m-2 border-icon d-flex align-items-center justify-content-center bg-light">
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp size-2rem text-dark"></i></a></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 row my-3">
+                <div class="col-lg-5 col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">ABOUT</li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Brand Guidelines</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">SERVICES</li>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold mb-4">OTHER</li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</html>
