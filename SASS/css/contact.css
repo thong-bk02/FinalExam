@@ -15,43 +15,10 @@ body, html {
   margin: 0; }
 
 html {
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; }
-
-.bg {
-  background: url(../image/pr.png) no-repeat;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: bottom;
-  background-size: cover; }
-  .bg h2 {
-    padding-right: 600px; }
-
-.type-text {
-  font-family: 'Grand Hotel', cursive; }
-
-input {
-  height: 6rem; }
-
-.container iframe {
-  height: 35rem; }
-
-.size-7rem {
-  font-size: 7rem; }
-
-.size {
-  font-size: 3rem; }
-
-.size-text {
-  font-size: 2.2rem; }
-
-.size-text-form {
-  font-size: 1.5rem; }
-
-.height {
-  height: 210px; }
 
 .header-group .header {
   position: fixed; }
@@ -127,14 +94,43 @@ input {
   -webkit-transform: translateY(0%);
   transform: translateY(0%); }
 
+.title {
+  background: url(../image/contact-image/bg-title.png) no-repeat;
+  background-repeat: no-repeat;
+  height: 70rem;
+  background-position: bottom;
+  background-size: cover; }
+  .title p {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 9rem; }
+
+.container iframe {
+  height: 35rem; }
+.container form input {
+  height: 6rem;
+  font-size: 2rem; }
+.container form textarea {
+  height: 20rem;
+  font-size: 2rem; }
+.container form button {
+  font-size: 2rem; }
+
 footer {
-  padding: 10rem 0; }
+  padding: 5rem 0; }
+  footer .title-footer {
+    font-size: 2.5rem;
+    line-height: 4rem; }
+  footer .content-title {
+    font-size: 2rem; }
   footer .border-icon {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%; }
+    footer .border-icon i {
+      font-size: 3rem;
+      line-height: 4rem; }
   footer ul li {
     font-size: 2rem;
     line-height: 4rem; }
@@ -180,7 +176,10 @@ footer {
   .header .navbar.active {
     left: 0;
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); } }
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); }
+
+  .title {
+    height: 50rem; } }
 @media (max-width: 450px) {
   html {
     font-size: 40%; } }
