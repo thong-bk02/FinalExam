@@ -16,14 +16,14 @@ body, html {
   margin: 0; }
 
 html {
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; }
 
 .header-group {
   background: url(../image/home-image/bg-header.png) no-repeat;
-  height: 90rem;
+  height: 80rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -53,7 +53,11 @@ html {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
   .header-group .title {
     height: 80vh;
-    padding-top: 10rem; }
+    padding-top: 15rem; }
+    .header-group .title span {
+      font-size: calc(4rem + 4vw); }
+    .header-group .title p {
+      font-size: calc(1.36rem + 1.5vw); }
     .header-group .title button {
       font-size: 2.5rem;
       line-height: 2rem;
@@ -62,25 +66,7 @@ html {
     .header-group .title button:hover {
       color: white; }
 
-.size-9rem {
-  font-size: 9rem; }
-
-.size-8rem {
-  font-size: 8rem; }
-
-.size-5rem {
-  font-size: 5rem; }
-
-.size-4rem {
-  font-size: 4rem; }
-
-.size-3rem {
-  font-size: 3.5rem; }
-
-.size-2rem {
-  font-size: 3rem; }
-
-.type-text {
+.text-grand-hotel {
   font-family: 'Grand Hotel', cursive; }
 
 .search-form {
@@ -140,16 +126,26 @@ main .border-circle {
 main .group1 .container {
   margin-top: 5vh;
   padding-bottom: 10vh; }
+  main .group1 .container .title-group1 p {
+    font-size: calc(2.7rem + 3vw); }
+  main .group1 .container .content-group1 p {
+    font-size: calc(2rem + 2vw); }
 main .group2 {
   background: url(../image/home-image/group2-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15rem 0; }
+  main .group2 p {
+    font-size: calc(3.5rem + 3.5vw);
+    font-family: 'Grand Hotel', cursive; }
+  main .group2 button {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    padding: 1rem 5rem; }
   main .group2 button:hover {
     color: white; }
-  main .group2 .size-8rem {
-    padding-top: 5rem; }
 main .group3 {
   background: url(../image/home-image/group3-bg.png) no-repeat;
   background-position: center;
@@ -157,55 +153,87 @@ main .group3 {
   background-size: cover; }
   main .group3 .container {
     padding: 10rem 0; }
-  main .group3 .row {
-    padding: 10rem 0; }
+    main .group3 .container .title-group3 p {
+      font-size: calc(3.5rem + 3.5vw);
+      font-family: 'Grand Hotel', cursive; }
+    main .group3 .container .title-group3 h1 {
+      margin: 0 25rem; }
+    main .group3 .container .row {
+      padding: 10rem 0; }
+      main .group3 .container .row p {
+        font-size: calc(2rem + 2.5vw);
+        margin-bottom: 0; }
+      main .group3 .container .row span {
+        font-size: calc(1.5rem + 1.3vw); }
 main .group4 {
   background: url(../image/home-image/group4-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 15rem 0; }
+  main .group4 p {
+    font-size: calc(3.5rem + 3.5vw);
+    font-family: 'Grand Hotel', cursive; }
+  main .group4 button {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    padding: 1rem 5rem; }
   main .group4 button:hover {
     color: white; }
-  main .group4 .size-8rem {
-    padding-top: 5rem; }
 main .group5 {
   background: url(../image/home-image/group5-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25rem 0; }
+  main .group5 span {
+    font-size: calc(1.5rem + 1.5vw); }
+  main .group5 p {
+    font-size: calc(2rem + 3vw);
+    font-family: 'Grand Hotel', cursive; }
 main .group6 {
   background: url(../image/home-image/group6-bg.png) no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25rem 0; }
+  main .group6 .title-group6 p {
+    font-size: calc(3.5rem + 3.5vw);
+    font-family: 'Grand Hotel', cursive; }
+  main .group6 .title-group6 h1 {
+    width: 50vw;
+    margin: 0 25rem; }
   main .group6 form {
     padding: 5rem 0; }
     main .group6 form .box-shadow {
       max-width: 75vw;
       box-shadow: 5px 5px 5px 5px #AAA; }
       main .group6 form .box-shadow input {
-        font-size: 3rem; }
+        font-size: calc(1.3rem + 1.5vw); }
       main .group6 form .box-shadow .email {
         text-indent: 5rem;
-        padding: 1rem 0;
-        width: 50vw; }
+        width: 45vw; }
+      main .group6 form .box-shadow .group6-btn {
+        line-height: 2rem;
+        font-weight: bold;
+        padding: 1.9rem 5rem; }
       main .group6 form .box-shadow .group6-btn:hover {
         color: white !important; }
 
 footer {
-  padding: 10rem 0; }
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw); }
+  footer .span {
+    margin-right: 10rem; }
   footer .border-icon {
-    height: 5rem;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%; }
   footer ul li {
-    font-size: 2rem;
-    line-height: 4rem; }
+    margin-bottom: 0.7rem; }
     footer ul li a {
       text-decoration: none;
       color: white;
@@ -216,11 +244,21 @@ footer {
 
 @media (max-width: 1200px) {
   .header {
-    padding: 2rem; } }
+    padding: 2rem; }
+
+  .group3 .title-group3 h1 {
+    margin: 0 !important; }
+
+  .group6 h1 {
+    width: 100%  !important;
+    margin: 0 !important; } }
 @media (max-width: 991px) {
   html {
     font-size: 55%;
-    scroll-padding-top: 7rem; } }
+    scroll-padding-top: 7rem; }
+
+  .header-group .title {
+    padding-top: 20rem; } }
 @media (max-width: 767px) {
   html {
     font-size: 50%; }
@@ -250,19 +288,15 @@ footer {
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); }
 
-  main .group2 {
-    padding: 0; }
-    main .group2 .size-8rem {
-      font-size: 7rem; }
-    main .group2 .group2-btn {
-      text-align: center; }
+  main .group2 p, main .group2 h1, main .group2 .group2-btn {
+    text-align: center; }
   main .group3 .container {
     padding: 10rem 0 0 0; }
     main .group3 .container .row {
       padding: 5rem 0; }
   main .group4 {
     padding: 0; }
-    main .group4 .group4-btn {
+    main .group4 .content-group4 p, main .group4 .content-group4 h1, main .group4 .content-group4 .group4-btn {
       text-align: center; }
     main .group4 img {
       margin-bottom: 5rem; }
@@ -285,7 +319,10 @@ footer {
     padding: 5rem 0; } }
 @media (max-width: 450px) {
   html {
-    font-size: 40%; } }
+    font-size: 40%; }
+
+  footer .container .row .span {
+    margin-right: 0 !important; } }
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

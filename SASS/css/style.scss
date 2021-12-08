@@ -22,7 +22,7 @@ body, html {
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
@@ -30,7 +30,7 @@ html {
 
 .header-group {
   background: url(../image/home-image/bg-header.png) no-repeat;
-  height: 90rem;
+  height: 80rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +77,13 @@ html {
 
   .title {
     height: 80vh;
-    padding-top: 10rem;
+    padding-top: 15rem;
+    span{
+      font-size: calc(4rem + 4vw);
+    }
+    p{
+      font-size: calc(1.36rem + 1.5vw);
+    }
     button{
       font-size: 2.5rem;
       line-height: 2rem;
@@ -90,31 +96,7 @@ html {
   }
 }
 
-.size-9rem {
-  font-size: 9rem;
-}
-
-.size-8rem {
-  font-size: 8rem;
-}
-
-.size-5rem {
-  font-size: 5rem;
-}
-
-.size-4rem {
-  font-size: 4rem;
-}
-
-.size-3rem {
-  font-size: 3.5rem;
-}
-
-.size-2rem {
-  font-size: 3rem;
-}
-
-.type-text{
+.text-grand-hotel{
   font-family: 'Grand Hotel', cursive;
 }
 
@@ -195,6 +177,16 @@ main {
     .container {
       margin-top: 5vh;
       padding-bottom: 10vh;
+      .title-group1{
+        p{
+          font-size: calc(2.7rem + 3vw);
+        }
+      }
+      .content-group1{
+        p{
+          font-size: calc(2rem + 2vw);
+        }
+      }
     }
   }
 
@@ -204,13 +196,18 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15rem 0;
-
+    p{
+      font-size: calc(3.5rem + 3.5vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
     button:hover {
       color: white;
-    }
-
-    .size-8rem {
-      padding-top: 5rem;
     }
   }
 
@@ -222,10 +219,25 @@ main {
 
     .container {
       padding: 10rem 0;
-    }
-
-    .row {
-      padding: 10rem 0;
+      .title-group3{
+        p{
+          font-size: calc(3.5rem + 3.5vw);
+          font-family: 'Grand Hotel', cursive;
+        }
+        h1{
+          margin: 0 25rem;
+        }
+      }
+      .row {
+        padding: 10rem 0;
+        p{
+          font-size: calc(2rem + 2.5vw);
+          margin-bottom: 0;
+        }
+        span{
+          font-size: calc(1.5rem + 1.3vw);
+        }
+      }
     }
   }
 
@@ -236,12 +248,18 @@ main {
     background-size: cover;
     padding: 15rem 0;
 
+    p{
+      font-size: calc(3.5rem + 3.5vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
     button:hover {
       color: white;
-    }
-
-    .size-8rem {
-      padding-top: 5rem;
     }
   }
 
@@ -251,6 +269,13 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25rem 0;
+    span{
+      font-size: calc(1.5rem + 1.5vw);
+    }
+    p{
+      font-size: calc(2rem + 3vw);
+      font-family: 'Grand Hotel', cursive;
+    }
   }
 
   .group6 {
@@ -259,7 +284,16 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25rem 0;
-
+    .title-group6{
+      p{
+        font-size: calc(3.5rem + 3.5vw);
+        font-family: 'Grand Hotel', cursive;
+      }
+      h1{
+        width: 50vw;
+        margin: 0 25rem;
+      }
+    }
     form {
       padding: 5rem 0;
 
@@ -268,15 +302,18 @@ main {
         box-shadow: 5px 5px 5px 5px #AAA;
 
         input {
-          font-size: 3rem;
+          font-size: calc(1.3rem + 1.5vw);
         }
 
         .email {
           text-indent: 5rem;
-          padding: 1rem 0;
-          width: 50vw;
+          width: 45vw;
         }
-
+        .group6-btn{
+          line-height: 2rem;
+          font-weight: bold;
+          padding: 1.9rem 5rem;
+        }
         .group6-btn:hover {
           color: white !important;
         }
@@ -287,25 +324,25 @@ main {
 
 footer {
   padding: 10rem 0;
-
+  font-size: calc(1.3rem + 0.5vw);
+  .span{
+    margin-right: 10rem;
+  }
   .border-icon {
-    height: 5rem;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
   }
 
   ul li {
-    font-size: 2rem;
-    line-height: 4rem;
-
+    margin-bottom: 0.7rem;
     a {
       text-decoration: none;
       color: white;
       font-weight: normal !important;
     }
-
     a:hover {
       color: $hover-color;
       margin-left: 10px;
@@ -317,12 +354,30 @@ footer {
   .header {
     padding: 2rem;
   }
+  .group3{
+    .title-group3{
+      h1{
+        margin: 0 !important;
+      }
+    }
+  }
+  .group6{
+    h1{
+      width: 100%  !important;
+      margin: 0 !important;
+    }
+  }
 }
 
 @media (max-width: 991px) {
   html {
     font-size: 55%;
     scroll-padding-top: 7rem;
+  }
+  .header-group{
+    .title{
+      padding-top: 20rem;
+    }
   }
 }
 
@@ -365,13 +420,7 @@ footer {
   }
   main {
     .group2 {
-      .size-8rem {
-        font-size: 7rem;
-      }
-
-      padding: 0;
-
-      .group2-btn {
+      p,h1,.group2-btn {
         text-align: center;
       }
     }
@@ -388,11 +437,11 @@ footer {
 
     .group4 {
       padding: 0;
-
-      .group4-btn {
-        text-align: center;
+      .content-group4{
+        p,h1,.group4-btn {
+          text-align: center;
+        }
       }
-
       img {
         margin-bottom: 5rem;
       }
@@ -430,6 +479,15 @@ footer {
 @media (max-width: 450px) {
   html {
     font-size: 40%;
+  }
+  footer{
+    .container{
+      .row{
+        .span{
+          margin-right: 0 !important; ;
+        }
+      }
+    }
   }
 }
 
