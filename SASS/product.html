@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="header-group">
@@ -41,7 +42,7 @@
 </div>
 
 <main>
-    <div class="about d-flex align-items-center" id="about">
+    <div class="about d-flex align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-12 image">
@@ -52,29 +53,29 @@
                     <p class="title text-light">What's make our food delicious!</p>
                     <h3 class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ut explicabo,
                         numquam iusto est a ipsum assumenda tempore esse corporis?</h3>
-                    <a href="#" class="btn py-3 px-5">read more</a>
+                    <a href="#" class="btn">Read More</a>
                     <div class="row">
                         <div class="col-sm-6 col-12 ">
-                            <div class="row icons bg-light rounded py-4 m-2">
+                            <div class="row icons rounded py-4 m-1">
                                 <div class="col-3"><img src="image/product-image/serv-1.png" class="img-fluid"></div>
                                 <div class="col-9 d-flex align-items-center"><h3 class="float-start ">Fast Delivery</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-12 ">
-                            <div class="row icons bg-light rounded py-4 m-2">
+                            <div class="row icons rounded py-4 m-1">
                                 <div class="col-3"><img src="image/product-image/serv-2.png" class="img-fluid"></div>
                                 <div class="col-9 d-flex align-items-center"><h3>Fresh Food</h3></div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-12 ">
-                            <div class="row icons bg-light rounded py-4 m-2">
+                            <div class="row icons rounded py-4 m-1">
                                 <div class="col-3"><img src="image/product-image/serv-3.png" class="img-fluid"></div>
                                 <div class="col-9 d-flex align-items-center"><h3>Best Quality</h3></div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-12 ">
-                            <div class="row icons bg-light rounded py-4 m-2">
+                            <div class="row icons rounded py-4 m-2">
                                 <div class="col-3"><img src="image/product-image/serv-4.png" class="img-fluid"></div>
                                 <div class="col-9 d-flex align-items-center"><h3>24/7 Support</h3></div>
                             </div>
@@ -553,26 +554,27 @@
         </div>
     </div>
 </main>
+
 <footer class="bg-dark text-light">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-12 py-4 right-footer">
-                <p class="title">Title Here</p>
-                <h1 class="py-3">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Aliquam at dignissim nunc, id maximus ex.
-                    Etiam nec dignissim elit, at dignissim enim. </h1>
+            <div class="col-lg-5 col-12 py-4 right-footer">
+                <p class="fw-bold">TITLE HERE</p>
+                <div class="span"><span class="py-lg-5 py-3">Lorem ipsum dolor sit amet, consecte- tur adipiscing elit. Aliquam at dignissim nunc, id maximus ex.
+                    Etiam nec dignissim elit, at dignissim enim. </span></div>
                 <div class="row py-3">
                     <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-dark"></i></a></div>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram size-2rem text-dark"></i></a></div>
                     <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f text-dark"></i></a></div>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f size-2rem text-dark"></i></a></div>
                     <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
-                        <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter text-dark"></i></a></div>
+                        <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fab fa-twitter size-2rem text-dark"></i></a></div>
                     <div class="col-3 m-2 border-icon border border-2 border-white d-flex align-items-center justify-content-center bg-light">
-                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp text-dark"></i></a></div>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp size-2rem text-dark"></i></a></div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 row my-3">
-                <div class="col-lg-5 col-md-4 col-12">
+            <div class="col-lg-7 col-12 row my-3">
+                <div class="col-lg-5 col-4">
                     <ul class="list-unstyled">
                         <li class="fw-bold mb-4">ABOUT</li>
                         <li><a href="#">History</a></li>
@@ -582,7 +584,7 @@
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
+                <div class="col-lg-4 col-4">
                     <ul class="list-unstyled">
                         <li class="fw-bold mb-4">SERVICES</li>
                         <li><a href="#">How to Order</a></li>
@@ -592,7 +594,7 @@
                         <li><a href="#">Payment Method</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12">
+                <div class="col-lg-3 col-4">
                     <ul class="list-unstyled">
                         <li class="fw-bold mb-4">OTHER</li>
                         <li><a href="#">Contact Us</a></li>
@@ -605,7 +607,7 @@
     </div>
 </footer>
 </body>
-<script src="js/product.js"></script>
+<script src="js/script.js"></script>
 <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>

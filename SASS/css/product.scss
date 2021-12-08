@@ -169,11 +169,11 @@ html{
 
 .about{
   background: url(../image/product-image/about-bg.png) no-repeat;
-  background-position:top;
+  background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
   .container{
-    padding: 15rem 0;
+    padding: 20rem 0;
     .content{
       span{
         font-size: 6rem;
@@ -183,7 +183,8 @@ html{
         font-size: 3rem;
       }
       .btn{
-        font-size: 3rem;
+        font-size: calc(1.3rem + 0.5vw);
+        padding: 1rem 4rem;
         color: white;
         background-color: gold;
         margin: 2rem 0;
@@ -193,6 +194,7 @@ html{
         background-color: white;
       }
       .icons{
+        background-color: darkgray;
         height: 90%;
         .col-3{
           display: flex;
@@ -386,32 +388,27 @@ html{
   }
 }
 
-footer {
-  padding: 4rem 0;
-  .title{
-    font-size: 3rem;
-  }
-  i{
-    font-size: 3rem;
+footer{
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw);
+  .span{
+    margin-right: 10rem;
   }
   .border-icon {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
   }
 
   ul li {
-    font-size: 2rem;
-    line-height: 4rem;
-
+    margin-bottom: 0.7rem;
     a {
       text-decoration: none;
       color: white;
       font-weight: normal !important;
     }
-
     a:hover {
       color: $hover-color;
       margin-left: 10px;
@@ -424,19 +421,15 @@ footer {
   html{
     font-size: 55%;
   }
-
   .header{
     padding:2rem;
   }
-
   section{
     padding:2rem;
   }
-
 }
 
 @media (max-width:768px){
-
   #menu-btn{
     display: inline-block;
   }
@@ -481,16 +474,13 @@ footer {
 }
 
 @media (max-width:450px){
-
   html{
     font-size: 50%;
   }
 
   .shopping-cart-container .cart-total{
-
     .box{
       text-align: center;
-
       .btn{
         width: 100%;
       }
@@ -506,4 +496,13 @@ footer {
     }
   }
 
+  footer{
+    .container{
+      .row{
+        .span{
+          margin-right: 0 !important; ;
+        }
+      }
+    }
+  }
 }
