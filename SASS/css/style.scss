@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+
+$hover-color: #aaa;
+$bg-header: black;
+$bg-search-form: rgba(0, 0, 0, 0.8);
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+.header-group {
+  background: url(../image/home-image/bg-header.png) no-repeat;
+  height: 80rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header {
+    position: fixed;
+
+    .logo {
+      margin-right: auto;
+    }
+
+    .navbar a {
+      font-size: 2rem;
+      color: white;
+    }
+
+    .navbar #nav-close {
+      font-size: 5rem;
+      cursor: pointer;
+      display: none;
+    }
+
+    .navbar a:hover {
+      color: $hover-color;
+    }
+
+    .icons a, .icons div {
+      font-size: 2.5rem;
+      margin-left: 2rem;
+      cursor: pointer;
+      color: white;
+    }
+
+    .icons a:hover, .icons div:hover {
+      color: $hover-color;
+    }
+  }
+
+  .header.active {
+    background: $bg-header;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+    height: 80vh;
+    padding-top: 15rem;
+    span{
+      font-size: calc(4rem + 4vw);
+    }
+    p{
+      font-size: calc(1.36rem + 1.5vw);
+    }
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
+    button:hover {
+      color: white;
+    }
+  }
+}
+
+.text-grand-hotel{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: $bg-search-form;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: translateY(-110%);
+  transform: translateY(-110%);
+
+  #close-search {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 6rem;
+  }
+
+  #close-search:hover {
+    color: $hover-color;
+  }
+
+  form {
+    width: 70rem;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid white;
+
+    input {
+      width: 100%;
+      font-size: 2rem;
+      color: white;
+      text-transform: none;
+      background: none;
+      padding-right: 2rem;
+    }
+
+    label {
+      font-size: 3rem;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    label:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+.search-form.active {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+main {
+  .img-circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+
+  .border-circle {
+    height: 25rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 25rem;
+  }
+
+  .group1 {
+    .container {
+      margin-top: 5vh;
+      padding-bottom: 10vh;
+      .title-group1{
+        p{
+          font-size: calc(2.7rem + 3vw);
+        }
+      }
+      .content-group1{
+        p{
+          font-size: calc(2rem + 2vw);
+        }
+      }
+    }
+  }
+
+  .group2 {
+    background: url(../image/home-image/group2-bg.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0;
+    p{
+      font-size: calc(3.5rem + 3.5vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
+    button:hover {
+      color: white;
+    }
+  }
+
+  .group3 {
+    background: url(../image/home-image/group3-bg.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+      padding: 10rem 0;
+      .title-group3{
+        p{
+          font-size: calc(3.5rem + 3.5vw);
+          font-family: 'Grand Hotel', cursive;
+        }
+        h1{
+          margin: 0 25rem;
+        }
+      }
+      .row {
+        padding: 10rem 0;
+        p{
+          font-size: calc(2rem + 2.5vw);
+          margin-bottom: 0;
+        }
+        span{
+          font-size: calc(1.5rem + 1.3vw);
+        }
+      }
+    }
+  }
+
+  .group4 {
+    background: url(../image/home-image/group4-bg.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0;
+
+    p{
+      font-size: calc(3.5rem + 3.5vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+    button{
+      font-size: 2.5rem;
+      line-height: 2rem;
+      font-weight: bold;
+      padding: 1rem 5rem;
+    }
+    button:hover {
+      color: white;
+    }
+  }
+
+  .group5 {
+    background: url(../image/home-image/group5-bg.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem 0;
+    span{
+      font-size: calc(1.5rem + 1.5vw);
+    }
+    p{
+      font-size: calc(2rem + 3vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+  }
+
+  .group6 {
+    background: url(../image/home-image/group6-bg.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem 0;
+    .title-group6{
+      p{
+        font-size: calc(3.5rem + 3.5vw);
+        font-family: 'Grand Hotel', cursive;
+      }
+      h1{
+        width: 50vw;
+        margin: 0 25rem;
+      }
+    }
+    form {
+      padding: 5rem 0;
+
+      .box-shadow {
+        max-width: 75vw;
+        box-shadow: 5px 5px 5px 5px #AAA;
+
+        input {
+          font-size: calc(1.3rem + 1.5vw);
+        }
+
+        .email {
+          text-indent: 5rem;
+          width: 45vw;
+        }
+        .group6-btn{
+          line-height: 2rem;
+          font-weight: bold;
+          padding: 1.9rem 5rem;
+        }
+        .group6-btn:hover {
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw);
+  .span{
+    margin-right: 10rem;
+  }
+  .border-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+
+  ul li {
+    margin-bottom: 0.7rem;
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: normal !important;
+    }
+    a:hover {
+      color: $hover-color;
+      margin-left: 10px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 2rem;
+  }
+  .group3{
+    .title-group3{
+      h1{
+        margin: 0 !important;
+      }
+    }
+  }
+  .group6{
+    h1{
+      width: 100%  !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    scroll-padding-top: 7rem;
+  }
+  .header-group{
+    .title{
+      padding-top: 20rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: -110%;
+      background: white;
+      width: 35rem;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        margin: 1rem 0;
+        font-size: 3rem !important;
+        color: $bg-header !important;
+      }
+    }
+
+    .navbar #nav-close {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+    }
+
+    .navbar.active {
+      left: 0;
+      -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+      box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    }
+  }
+  main {
+    .group2 {
+      p,h1,.group2-btn {
+        text-align: center;
+      }
+    }
+
+    .group3 {
+      .container {
+        padding: 10rem 0 0 0;
+
+        .row {
+          padding: 5rem 0;
+        }
+      }
+    }
+
+    .group4 {
+      padding: 0;
+      .content-group4{
+        p,h1,.group4-btn {
+          text-align: center;
+        }
+      }
+      img {
+        margin-bottom: 5rem;
+      }
+    }
+
+    .group5 {
+      padding: 10rem 0;
+    }
+
+    .group6 {
+      padding: 10rem 0;
+
+      .box-shadow {
+        box-shadow: none !important;
+        background-color: rgba(244, 244, 244, 255);
+
+        .email {
+          padding: 1rem 0;
+          width: 100% !important;
+        }
+
+        .group6-btn {
+          margin: 1.5rem 30% 0 30%;
+          padding: 1rem;
+          border-radius: 5px !important;
+        }
+      }
+    }
+  }
+  footer{
+    padding: 5rem 0;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+  footer{
+    .container{
+      .row{
+        .span{
+          margin-right: 0 !important; ;
+        }
+      }
+    }
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
