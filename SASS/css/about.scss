@@ -132,18 +132,14 @@ html {
 
 .group1{
   .left{
-    background: url(../image/about-image/goup1.png) no-repeat;
+    background: url(../image/about-image/bg-about.png) no-repeat;
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    .size{
-      padding-top: 35em;
-      margin-left: 40%;
-    }
   }
   .left2{
-    background: url(../image/about-image/left2.jpg) no-repeat;
+    background: url(../image/about-image/group2.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
     background-size: cover;
@@ -152,15 +148,11 @@ html {
 }
 .group2{
   .left3{
-    background: url(../image/about-image/left3.png) no-repeat;
+    background: url(../image/about-image/bg-about.png) no-repeat;
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    .size2{
-      padding-top: 8em;
-      margin-right: 40%;
-    }
   }
   .bg1{
     background: url(../image/about-image/bg1.png) no-repeat;
@@ -172,24 +164,24 @@ html {
 }
 .group3{
   .right{
-    background: url(../image/about-image/group2.jpg) no-repeat;
+    background: url(../image/about-image/left2.jpg) no-repeat;
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .right2{
-    background: url(../image/about-image/right2.png) no-repeat;
+    background: url(../image/about-image/bg-about.png) no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    .size3{
-      padding: 25% 100px;
-      margin-left: 20em;
-    }
   }
 }
+.size{
+  padding-top: 25%;
+}
+
 .size-text{
   font-size: 5rem;
 }
