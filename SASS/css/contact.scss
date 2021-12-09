@@ -161,42 +161,34 @@ html {
   }
 }
 
-footer {
-  padding: 5rem 0;
-  .title-footer{
-    font-size: 2.5rem;
-    line-height: 4rem;
-  }
-  .content-title{
-    font-size: 2rem;
+footer{
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw);
+  .span{
+    margin-right: 10rem;
   }
   .border-icon {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    i{
-      font-size: 3rem;
-      line-height: 4rem;
-    }
   }
-  ul li {
-    font-size: 2rem;
-    line-height: 4rem;
 
+  ul li {
+    margin-bottom: 0.7rem;
     a {
       text-decoration: none;
       color: white;
       font-weight: normal !important;
     }
-
     a:hover {
-      color: #aaa;
+      color: #aaaaaa;
       margin-left: 10px;
     }
   }
 }
+
 
 @media (max-width: 1200px) {
   .header {
@@ -251,10 +243,22 @@ footer {
   .title{
     height: 50rem;
   }
+  footer{
+    padding: 5rem 0;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 40%;
+  }
+  footer{
+    .container{
+      .row{
+        .span{
+          margin-right: 0 !important; ;
+        }
+      }
+    }
   }
 }
