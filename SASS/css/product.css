@@ -99,7 +99,7 @@ html {
   background-size: cover; }
   .about .container {
     padding: 20rem 0; }
-    .about .container .content span {
+    .about .container .content .text-warning {
       font-size: 6rem;
       font-family: 'Grand Hotel', cursive; }
     .about .container .content .title {
@@ -292,6 +292,9 @@ footer {
     left: 0;
     -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); }
+
+  main .content-title p, main .content-title h3 {
+    text-align: center !important; }
 
   footer {
     padding: 5rem 0; } }

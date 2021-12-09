@@ -149,7 +149,7 @@ html{
   .container{
     padding: 20rem 0;
     .content{
-      span{
+      .text-warning{
         font-size: 6rem;
         font-family: 'Grand Hotel', cursive;
       }
@@ -442,6 +442,14 @@ footer{
       left: 0;
       -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
       box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  main{
+    .content-title{
+      p,h3{
+        text-align: center!important;
+      }
     }
   }
 
