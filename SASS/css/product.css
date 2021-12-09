@@ -11,17 +11,10 @@
   transition: .2s linear; }
 
 html {
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 8.5rem; }
-  html::-webkit-scrollbar {
-    width: 1rem; }
-  html::-webkit-scrollbar-track {
-    background: #fff; }
-  html::-webkit-scrollbar-thumb {
-    background: gold;
-    border-radius: 5rem; }
   html a {
     text-decoration: none; }
 
@@ -270,9 +263,6 @@ footer {
     font-size: 55%; }
 
   .header {
-    padding: 2rem; }
-
-  section {
     padding: 2rem; } }
 @media (max-width: 768px) {
   #menu-btn {

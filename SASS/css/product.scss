@@ -21,37 +21,11 @@ $hover-color: #aaa;
 $bg-header: black;
 $bg-search-form: rgba(0, 0, 0, 0.8);
 
-@mixin grid($val) {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-  gap:1.5rem;
-}
-
-@mixin font($size) {
-  font-family: 'Satisfy', cursive;
-  font-size: $size;
-  color:$green;
-}
-
 html{
-  font-size: 62.5%;
+  font-size: 60%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 8.5rem;
-
-  &::-webkit-scrollbar{
-    width: 1rem;
-  }
-
-  &::-webkit-scrollbar-track{
-    background: $white;
-  }
-
-  &::-webkit-scrollbar-thumb{
-    background: gold;
-    border-radius: 5rem;
-  }
-
   a{
     text-decoration: none;
   }
@@ -324,6 +298,12 @@ html{
   }
 }
 
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap:1.5rem;
+}
+
 .menu{
   .heading{
     span{
@@ -422,9 +402,6 @@ footer{
     font-size: 55%;
   }
   .header{
-    padding:2rem;
-  }
-  section{
     padding:2rem;
   }
 }
