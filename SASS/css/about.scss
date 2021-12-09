@@ -1,4 +1,4 @@
-* {
+*{
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -132,99 +132,143 @@ html {
 
 .group1{
   .left{
-    background: url(../image/about-image/bg-about.png) no-repeat;
-    height: 100vh;
+    background: url(../image/about-image/bg-content.png) no-repeat;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .left2{
-    background: url(../image/about-image/group2.jpg) no-repeat;
     height: 100vh;
-    background-size: cover;
-    background-size: cover;
-    background-position: bottom;
+    .text-warning{
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(4rem + 4vw);
+    }
+    h2{
+      margin: 2vw 5vw;
+    }
   }
-}
-.group2{
-  .left3{
-    background: url(../image/about-image/bg-about.png) no-repeat;
-    height: 100vh;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .bg1{
-    background: url(../image/about-image/bg1.png) no-repeat;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-  }
-}
-.group3{
   .right{
-    background: url(../image/about-image/left2.jpg) no-repeat;
+    background: url(../image/about-image/group1-img-right.jpg) no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+  }
+}
+
+.group2{
+  .left{
+    background: url(../image/about-image/group2-img-left.png) no-repeat;
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .right2{
-    background: url(../image/about-image/bg-about.png) no-repeat;
+  .right{
+    background: url(../image/about-image/bg-content.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .text-warning{
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(4rem + 4vw);
+    }
+    h2{
+      margin: 2vw 5vw;
+    }
+  }
+}
+
+.group3{
+  .left{
+    background: url(../image/about-image/bg-content.png) no-repeat;
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text-warning{
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(4rem + 4vw);
+    }
+    h2{
+      margin: 2vw 5vw;
+    }
+  }
+  .right{
+    background: url(../image/about-image/group3-img-fight.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
   }
 }
-.size{
-  padding-top: 25%;
-}
 
-.size-text{
-  font-size: 5rem;
-}
-.type-text{
-  font-family: 'Grand Hotel', cursive;
-}
+.group4{
+  .container{
+    .text-warning{
+      font-weight: bold;
+      font-size: calc(4rem + 4vw);
+      font-family: 'Grand Hotel', cursive;
+    }
+    .row{
+      img{
+        height: 25rem;
+        width: 35rem;
+        border-radius: 1rem;
+      }
+      .title{
+        font-family: 'Grand Hotel', cursive;
+        font-size: calc(1.5rem + 1vw);
+      }
+      h2{
+        margin: 1vw 0 2vw 0;
+      }
+      .categories{
+        background: url(../image/about-image/group4-categoty.jpg) no-repeat;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+      }
+      .customer{
+        background: url(../image/about-image/group4-customer.jpg) no-repeat;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+      }
+    }
 
-footer {
-  padding: 5rem 0;
-  .title-footer{
-    font-size: 2.5rem;
-    line-height: 4rem;
   }
-  .content-title{
-    font-size: 2rem;
+}
+
+footer{
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw);
+  .span{
+    margin-right: 10rem;
   }
   .border-icon {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    i{
-      font-size: 3rem;
-      line-height: 4rem;
-    }
   }
-  ul li {
-    font-size: 2rem;
-    line-height: 4rem;
 
+  ul li {
+    margin-bottom: 0.7rem;
     a {
       text-decoration: none;
       color: white;
       font-weight: normal !important;
     }
-
     a:hover {
-      color: #aaa;
+      color: #aaaaaa;
       margin-left: 10px;
     }
   }
 }
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
@@ -235,6 +279,11 @@ footer {
   html {
     font-size: 55%;
     scroll-padding-top: 7rem;
+  }
+  .container-fluid{
+    .right,.left{
+      height: 80vh;
+    }
   }
 }
 
@@ -275,13 +324,44 @@ footer {
       box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
     }
   }
-  .title{
-    height: 50rem;
+  .container-fluid{
+    .right,.left{
+      height: 60vh;
+    }
+    .group1{
+      .left{ order: 2;}
+      .right{ order: 1;}
+    }
+    .group2{
+      .left{ order: 3;}
+      .right{ order: 4;}
+    }
+    .group3{
+      .left{ order: 6;}
+      .right{ order: 5;}
+    }
+  }
+  footer{
+    padding: 5rem 0;
   }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 40%;
+  }
+  .container-fluid{
+    .right,.left{
+      height: 40vh;
+    }
+  }
+  footer{
+    .container{
+      .row{
+        .span{
+          margin-right: 0 !important; ;
+        }
+      }
+    }
   }
 }
