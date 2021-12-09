@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: .2s linear; }
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem; }
+  html a {
+    text-decoration: none; }
+
+.header-group .header {
+  position: fixed; }
+  .header-group .header .logo {
+    margin-right: auto; }
+  .header-group .header .navbar a {
+    font-size: 2rem;
+    color: white; }
+  .header-group .header .navbar #nav-close {
+    font-size: 5rem;
+    cursor: pointer;
+    display: none; }
+  .header-group .header .navbar a:hover {
+    color: #aaa; }
+  .header-group .header .icons a, .header-group .header .icons div {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: white; }
+  .header-group .header .icons a:hover, .header-group .header .icons div:hover {
+    color: #aaa; }
+.header-group .header.active {
+  background: black;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
+.header-group .title {
+  height: 80vh;
+  padding-top: 10rem; }
+  .header-group .title button:hover {
+    color: white; }
+
+.search-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: translateY(-110%);
+  transform: translateY(-110%); }
+  .search-form #close-search {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 6rem; }
+  .search-form #close-search:hover {
+    color: #aaa; }
+  .search-form form {
+    width: 70rem;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid white; }
+    .search-form form input {
+      width: 100%;
+      font-size: 2rem;
+      color: white;
+      text-transform: none;
+      background: none;
+      padding-right: 2rem; }
+    .search-form form label {
+      font-size: 3rem;
+      cursor: pointer;
+      color: #fff; }
+    .search-form form label:hover {
+      color: #aaa; }
+
+.search-form.active {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%); }
+
+main .group1 {
+  background: url(../image/promo-image/group1-bg.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .group1 .container {
+    padding: 18rem 0; }
+    main .group1 .container .title p {
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(4rem + 4vw); }
+    main .group1 .container .title span {
+      font-size: calc(1.5rem + 1.5vw); }
+main .group2 {
+  padding: 5rem 0 10rem 0; }
+  main .group2 .container .title .text-warning {
+    padding: 4rem 0;
+    font-size: calc(2.5rem + 2.5vw);
+    font-family: 'Grand Hotel', cursive; }
+  main .group2 .container .title .text-dark {
+    font-size: calc(1.5rem + 1vw);
+    width: 70%;
+    margin: 0 15%;
+    padding-bottom: 4rem; }
+  main .group2 .container .row .image1 {
+    background: url(../image/promo-image/group2-img1.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(20rem + 15vw); }
+  main .group2 .container .row .image2 {
+    background: url(../image/promo-image/group2-img2.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(20rem + 15vw); }
+  main .group2 .container .row .image3 {
+    background: url(../image/promo-image/group2-img3.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(20rem + 15vw); }
+  main .group2 .container .row .d-flex {
+    background-color: #AAAAAA;
+    border-bottom: 1px solid white; }
+    main .group2 .container .row .d-flex p {
+      color: gold;
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(1.5rem + 2vw); }
+    main .group2 .container .row .d-flex span {
+      font-size: calc(1rem + 1vw); }
+main .group3 {
+  background: url(../image/promo-image/group3-bg.jpg) no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10rem 0; }
+  main .group3 .container .menu {
+    width: 70vw;
+    background-color: white; }
+    main .group3 .container .menu .title p {
+      padding-top: 5rem;
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(2.5rem + 2.5vw); }
+    main .group3 .container .menu .title span {
+      font-size: calc(1.5rem + 1vw); }
+    main .group3 .container .menu .row img {
+      height: 15rem; }
+    main .group3 .container .menu .row p {
+      font-size: calc(1.375rem + 1vw);
+      font-family: 'Grand Hotel', cursive; }
+    main .group3 .container .menu .row span {
+      font-size: calc(1.375rem + 0.3vw); }
+main .group4 .container .title {
+  padding-top: 3vw; }
+  main .group4 .container .title p {
+    font-family: 'Grand Hotel', cursive;
+    font-size: calc(2.5rem + 2.5vw); }
+main .group4 .container .voucher {
+  padding: 0 0 3vw 0; }
+  main .group4 .container .voucher .row .voucher1 {
+    background: url(../image/promo-image/group4-bg-voucher2.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    margin: 3rem 0; }
+    main .group4 .container .voucher .row .voucher1 p {
+      font-size: calc(1.5rem + 0.4vw); }
+    main .group4 .container .voucher .row .voucher1 .text-warning {
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(2.5rem + 1vw); }
+    main .group4 .container .voucher .row .voucher1 .lorem {
+      font-size: calc(1rem + 0.2vw); }
+  main .group4 .container .voucher .row .voucher2 {
+    background: url(../image/promo-image/group4-bg-voucher1.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    margin: 3rem 0; }
+    main .group4 .container .voucher .row .voucher2 p {
+      margin-right: 2vw;
+      text-align: right;
+      font-size: calc(1.5rem + 0.4vw); }
+    main .group4 .container .voucher .row .voucher2 .text-warning {
+      font-family: 'Grand Hotel', cursive;
+      font-size: calc(2.5rem + 1vw); }
+    main .group4 .container .voucher .row .voucher2 .lorem {
+      font-size: calc(1rem + 0.2vw); }
+
+footer {
+  padding: 10rem 0;
+  font-size: calc(1.3rem + 0.5vw); }
+  footer .span {
+    margin-right: 10rem; }
+  footer .border-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; }
+  footer ul li {
+    margin-bottom: 0.7rem; }
+    footer ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: normal !important; }
+    footer ul li a:hover {
+      color: #aaa;
+      margin-left: 10px; }
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%; }
+
+  .header {
+    padding: 2rem; } }
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block; }
+
+  .header .navbar {
+    position: fixed;
+    top: 0;
+    left: -110%;
+    background: white;
+    width: 35rem;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center; }
+    .header .navbar a {
+      margin: 1rem 0;
+      font-size: 3rem !important;
+      color: black !important; }
+  .header .navbar #nav-close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem; }
+  .header .navbar.active {
+    left: 0;
+    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.8); }
+
+  footer {
+    padding: 5rem 0; } }
+@media (max-width: 576px) {
+  html {
+    font-size: 50%; }
+
+  main .group2 {
+    padding: 0; }
+    main .group2 .text-center {
+      height: 10rem; }
+  main .group3 {
+    padding: 5rem 0; }
+    main .group3 .menu {
+      width: 100vw !important; }
+
+  footer .container .row .span {
+    margin-right: 0 !important; } }
+
+/*# sourceMappingURL=promo.css.map */
